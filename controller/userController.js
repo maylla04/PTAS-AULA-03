@@ -12,7 +12,7 @@ const createUser = async (req, res) => {
         res.json('Cadastro de usuário realizado com sucesso!');
         console.log('Cadastro de usuário realizado com sucesso!');
     }).catch((erro) => {
-        res.error();
+       
         console.log(`Ops, deu erro: ${erro}`);
     })
 }
@@ -33,7 +33,7 @@ const deleteUser = async (req, res) => {
         res.json('Usuário deletado com sucesso!');
         console.log('Usuário deletado com sucesso!');
     }).catch((erro) => {
-        res.error();
+        
         console.log(`Ops, deu erro: ${erro}`);
     })
     
@@ -56,7 +56,7 @@ const updateUser = async (req, res) => {
         res.json('Usuário atualizado realizado com sucesso!');
         console.log('Usuário atualizado realizado com sucesso!');
     }).catch((erro) => {
-        res.error();
+        
         console.log(`Ops, deu erro: ${erro}`);
     })
     
